@@ -1,4 +1,4 @@
-.playground{
+/* .playground{
     width:50%;
     height:50%;
     margin: auto;
@@ -14,4 +14,32 @@ body html .root {
     height: 50px;
     width: 50px;
     border-radius: 25px;
-}
+} */
+.playground {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .start {
+    padding: 10px 30px;
+    background-color: rgb(87, 145, 239);
+    color: white;
+    font-size: large;
+    font-weight: 600;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .ball {
+    background-color: black;
+    box-shadow: 0 10px 10px -6px;
+    position: relative;
+    left: 0px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+  }
